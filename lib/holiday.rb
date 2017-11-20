@@ -61,11 +61,10 @@ def all_supplies_in_holidays(holiday_hash)
   holidays.each do |holidays, supplies|
 
   puts " " + holidays.to_s.split("_")
-  puts supplies.join(", ")
+
 
     end
   end
-
 end
 
 
