@@ -56,7 +56,7 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
 map = {}
-hash.each_pair do |k, v|
+holiday_hash.each_pair do |k, v|
   map[k.upcase] = v
 end
 
