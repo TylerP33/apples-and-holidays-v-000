@@ -65,6 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
     season + holiday = new_array
     new_array
   end
+end
 
 
 
