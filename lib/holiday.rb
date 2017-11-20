@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
   puts season.to_s.capitalize + ":"
   puts holidays.to_s
 
-end.flatten
+end.flatten.compact
 end
 
 
