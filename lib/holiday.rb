@@ -60,7 +60,7 @@ hash.each_pair do |k, v|
   map[k.upcase] = v
 end
 
-  
+
   holiday_hash.each do |season, holidays|
   puts season.to_s.capitalize + ":"
   holidays.each do |holidays, supplies|
